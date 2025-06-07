@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaibhav Tiwari - Aspiring Educator</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon"> </head>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
 <body>
     <header>
         <div class="container">
@@ -94,13 +97,36 @@
         </section>
 
         <section id="contact" class="container">
+            
             <h2>संपर्क करें</h2>
             <p>आप मुझसे निम्न तरीकों से संपर्क कर सकते हैं:</p>
-            <ul>
-                <li>ईमेल: <a href="mailto:9559vt@gmail.com">9559vt@gmail.com</a></li>
-                <li>फ़ोन: <a href="callto:9559259257">9559259257</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/vaibhav-tiwari-b865b926b" target="_blank">Vaibhav Tiwari का LinkedIn प्रोफ़ाइल</a></li>
-                <li>पता: बेलहरी, जयसिंहपुर, सुल्तानपुर, उत्तर प्रदेश (228133)</li>
+                        <ul>
+                <li><i class="fas fa-envelope"></i> ईमेल: <a href="mailto:9559vt@gmail.com">9559vt@gmail.com</a></li>
+                <li><i class="fas fa-phone-alt"></i> फ़ोन: <a href="callto:9559259257">9559259257</a></li>
+                <li><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/vaibhav-tiwari-b865b926b" target="_blank">Vaibhav Tiwari</a></li>
+                <li><i class="fab fa-github"></i> GitHub: <a href="https://github.com/vaibhav-tiiwari "target="https://github.com/vaibhav-tiiwari">My GitHub</a></li>
+                <li><i class="fas fa-map-marker-alt"></i> पता: बेलहरी, जयसिंहपुर, सुल्तानपुर, उत्तर प्रदेश (228133)</li>
+            </ul>
+
+
+            <h3>मुझे एक संदेश भेजें</h3>
+            <form action="https://formsubmit.co/9559vt@gmail.com" method="POST" class="contact-form">
+                <input type="hidden" name="_next" value="https://vaibhav-tiiwari.github.io/vaibhav-tiiwari/thank-you.html"> <input type="hidden" name="_captcha" value="false"> <div class="form-group">
+                    <label for="name">आपका नाम:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">आपका ईमेल:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">आपका संदेश:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">संदेश भेजें</button>
+            </form>
+        </section>
+
             </ul>
         </section>
     </main>
