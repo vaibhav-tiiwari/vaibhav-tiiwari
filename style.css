@@ -130,5 +130,61 @@ footer {
         padding: 5px 0;
     }
 }
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
 
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: calc(100% - 20px); /*                 */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    resize: vertical; /* उपयोगकर्ता को टेक्स्टएरिया का आकार बदलने की अनुमति दें */
+}
+
+.contact-form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: #77aaff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background: #5588cc;
+}
+/* सोशल मीडिया आइकन्स के लिए स्टाइल */
+#contact ul li i {
+    margin-right: 8px; /* आइकन और टेक्स्ट के बीच थोड़ी जगह */
+    color: #77aaff; /* आइकन का रंग */
+    width: 20px; /* आइकन के लिए फिक्स्ड चौड़ाई ताकि संरेखण सही रहे */
+    text-align: center;
+}
